@@ -21,7 +21,7 @@ export default function ResumePage() {
             </span>
             <span className="inline-flex items-center gap-1.5">
               <MapPin size={14} />
-              /* {profile.location} */
+              {/* {profile.location} */}
             </span>
             {profile.phones.map((phone) => (
               <span key={phone} className="inline-flex items-center gap-1.5">
